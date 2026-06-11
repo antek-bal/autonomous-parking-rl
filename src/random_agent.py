@@ -7,7 +7,7 @@ import highway_env
 
 try:
     from src.wrapper import STREET_PARALLEL_PARKING_ID
-except ImportError:  # pragma: no cover
+except ImportError:
     from wrapper import STREET_PARALLEL_PARKING_ID
 
 
